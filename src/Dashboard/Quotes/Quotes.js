@@ -17,7 +17,7 @@ function Quotes() {
         } else {
             fetchQuotes();
         }
-    }, []);
+    });
 
     // Random Color Generate. Return Different Color Value.
     const randomColor = () => {

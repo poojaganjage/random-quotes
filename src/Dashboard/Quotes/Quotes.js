@@ -45,6 +45,7 @@ function Quotes() {
     }
 
     const handleClick = () => {
+        //fetchQuotes();
         let randomIndex = Math.floor(Math.random() * 16);
         let {quote, author} = quoteData[randomIndex];
         const color = randomColor();
